@@ -1,0 +1,44 @@
+*{ box-sizing: content-box; }
+
+
+img{ padding: 1px;  border-right: 31px solid rgb(6, 6, 7);  width: 1450px;  height: 600px; margin-bottom: 70px;}
+h1{ color: rgb(10, 6, 7);   border: 5px solid rgb(29, 155, 177);  border-radius: 5px;
+    font-size: 55px; position: absolute;  top: 50px; left: 460px;  background-color: rgb(189, 170, 170);
+} 
+.cap{ font-size: 900; color:brown ; }
+h1:hover{ background-color: rgb(33, 143, 194);}
+ .net{position: absolute;  width: 16%;  height: 15%;top: 580px; left: 100px;   border: 5px solid mediumseagreen; box-shadow:  10px 10px 5px black;    }
+.net:hover{ color: rgb(23, 130, 172);   width: 17%;  height:16%;}
+        .paytm{position: absolute;   box-shadow:  10px 10px 5px black;  width: 17%; height: 22%;  top: 540px; left: 560px;
+     border: 5px solid rgb(250, 247, 76);}
+.paytm:hover{background-color: orange;   width: 18%; height:23%;}
+        .upi{position: absolute;  box-shadow:  10px 10px 5px black;   width:15%; height: 15%; top: 580px;  left: 1000px;
+    border: 5px solid rgb(250, 76, 227);}
+.upi:hover{background-color: orange;  width: 16%;  height:16%;}
+        .info{ color: black;  padding: 5px;   border: 3px solid black;  background-color: rgb(206, 180, 206);  position: absolute;   top: 170px; left: 6700px; }
+        .info:hover{ background-color: black;  color: rgb(196, 185, 185);
+border: 2px solid rgb(250, 247, 247);}
+        nav{  z-index: 2; position: sticky;  background-color: black;  overflow: hidden; position: -webkit-sticky; top: 1px; }
+        nav a{  text-decoration: none;  font-style: normal;  padding: 16px;  float: right;
+           color: white;  
+    }
+    nav a:hover{ cursor: pointer; color: tomato;  font-size: 16px; font-style: italic; }
+    div{  position: absolute; left: 560px ; top: 260px;}
+    div:hover{ font-size: 18px;color: rgb(233, 146, 233); }
+    .care{ z-index: 4; background-color: chartreuse; color: black; padding: 5px; border: 2px solid black; width: 50px; position: fixed; box-shadow: 5px 5px 5px grey;
+    top: 500px; left: 1350px; border-radius: 10px; clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+    .care:hover{ color: brown; font-size: 20px; padding: 8px; font-weight: 800;}
+    .faq{ background-color: chartreuse; color: black; padding: 5px; border: 2px solid black; width: 50px; position: fixed; 
+    top: 565px; left: 1350px; border-radius: 10px; clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+    .faq:hover{ color: brown; font-size: 20px; padding: 8px; font-weight: 800; }
+    .feed{ background-color: chartreuse; color: black; padding: 5px; border: 2px solid black; width: 50px; position: fixed; 
+    top: 625px; left: 1350px; border-radius: 10px; clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);}
+    .feed:hover{ color: brown; font-size: 20px; padding: 8px; font-weight: 800; }
+  footer  { padding: 8px; border: 1px solid black; display: flex;  background-color: rgb(167, 151, 167);  color: black;}
+  .flexbox{ background-color: grey; height:390px ; display: flex; padding: 20px; margin-bottom: 10px;}
+  .flex{ border: 3px solid black; padding: 3px; margin: 5px;   }
+  .savings{ background-color: grey; height:390px ; display: flex; padding: 20px; margin-bottom: 10px;}
+  .sav{ border: 3px solid black; padding: 3px; margin: 5px; }
+  #pic{ height: 200px; width: 180px; align-content: center;}
+
+  div img{ width: 100px; height: 100px; position: absolute; top: 470px; left: 680px; z-index: 1; border-right: 0px; overflow: visible; }

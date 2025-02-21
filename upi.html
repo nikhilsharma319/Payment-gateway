@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAGE 2 (payment form)</title>
+
+
+
+ <style>
+        *{ box-sizing: border-box;}
+        body{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+         margin: 30px;
+         font-size: 17px;
+         padding: 8px;}
+         .container{ background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+     border: 3px solid bLUE;
+     border-radius: 10px;}
+     h1{ border: 3px solid blUE;
+    height: 50px;
+    background-color: rgb(158, 158, 187);
+    }
+    input[type="text"],
+    input[type="number"],
+    input[type="radio"],
+    input[type="email"],
+    input[type="date"],
+    input[type="password"],
+    select,
+    textarea{ 
+        width: 100%;
+        padding: 12ppx;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    } 
+    input[type="submit"] , input[type="reset"] { background-color: rgb(187, 236, 71);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;}
+    input[type="submit"]:hover{ background-color: cornflowerblue;}
+    input[type="reset"]:hover{ background-color:cornflowerblue ;}   
+    nav a{  text-decoration: none;  font-style: normal;  padding: 16px;   background-color: black;
+           color: white;  
+    }
+    nav a:hover{ cursor: pointer; color: tomato;  font-size: 16px; font-style: italic; }
+     </style> 
+
+  
+
+</head>
+<body style="width: 100%;">
+    <nav>
+        <a href="layout.html" target="_blank">HOME</a> &nbsp; &nbsp;&nbsp; &nbsp;
+        <a href="security.html" target="_blank" >SECURITY</a>
+        <a href="#">REFUND POLICY</a>
+        <a href="#">GET IN TOUCH </a>
+        <a href="about.html">What we Do</a>
+        <a href="about.html">Who we Are</a>
+     </nav>
+     <center> <h1>UPI PAYMENT FORM </h1></center>
+    
+<center>
+    
+  
+    <div class="container">
+    <form action="">
+        <hr>
+         <h3>CONTACT INFORMATION .......</h3>
+        <p class="sp">Name = <input type="text" name="name" required> </p>
+        <p>Contact No =  <input type="number" name="number"></p>
+        <p>Adress =  <textarea name="add" id="add" cols="20" rows="4" class="sp" ></textarea></p>
+        <p class="sp">Account No. = <input type="number" required></p>
+        <p>Email id  = <input type="email"></p>
+      <p> <fieldset>
+      <legend> Gender </legend> Male <input type="radio" name="gender" id=""> Female <input type="radio" name="gender" id=""> Other <input type="radio" name="gender" id="" required>
+            
+</fieldset></p> 
+        <P>Latest photo  : <input type="file"></P>
+  
+    
+        <hr>
+        
+     <h3>PAYMENT INFORMATION......</h3>
+     <p > Card type 
+         <select name="card" id="card_type">
+             <option value="">-----SELECT THE TYPE OF YOUR  CARD-----</option>
+             <option value="MASTER CARD">MASTER CARD</option>
+             <option value="Rupay card">Rupay card </option>
+             <option value="VISA CARD">VISA CARD</option>
+         </select>
+     </p>
+     <p>card Number = <input type="number" name="no." id="no." required></p >
+     <p>Expiration date = <input type="date" name="date" id="date" required></p>
+     <p class="sp">CVV = <input type="password" name="cvv" id="cvv" required> </p>
+       
+             <input type="submit" value="Pay now" required>
+        <input type="reset" value="RESET ">
+    </form>
+    
+    </div>
+</body>
+</html>
